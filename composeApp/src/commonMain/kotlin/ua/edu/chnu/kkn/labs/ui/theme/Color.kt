@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.ui.theme
+package ua.edu.chnu.kkn.labs.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val primaryLight = Color(0xFF465D91)

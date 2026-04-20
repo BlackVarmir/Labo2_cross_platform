@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens.checkboxes
+package ua.edu.chnu.kkn.labs.ui.screens.checkboxes
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -16,7 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import ua.edu.chnu.kkn.Labo2_cross_platform.ui.theme.AppTheme
+import ua.edu.chnu.kkn.labs.ui.theme.AppTheme
 
 @Composable
 fun CheckboxesScreen() {

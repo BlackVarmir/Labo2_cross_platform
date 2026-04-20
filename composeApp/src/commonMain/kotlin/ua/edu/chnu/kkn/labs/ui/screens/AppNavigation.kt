@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens
+package ua.edu.chnu.kkn.labs.ui.screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -29,9 +29,9 @@ import labo2_cross_platform.composeapp.generated.resources.*
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
-import ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens.buttons.ButtonsScreen
-import ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens.checkboxes.CheckboxesScreen
-import ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens.main.MainScreen
+import ua.edu.chnu.kkn.labs.ui.screens.buttons.ButtonsScreen
+import ua.edu.chnu.kkn.labs.ui.screens.checkboxes.CheckboxesScreen
+import ua.edu.chnu.kkn.labs.ui.screens.main.MainScreen
 
 enum class AppScreen(val title: StringResource) {
     Main(title = Res.string.main), Buttons(title = Res.string.buttons), Checkboxes(title = Res.string.checkboxes),

@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.ui.theme
+package ua.edu.chnu.kkn.labs.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.font.Font

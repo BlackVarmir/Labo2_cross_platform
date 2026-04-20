@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.ui.screens.main
+package ua.edu.chnu.kkn.labs.ui.screens.main
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -24,8 +24,8 @@ import labo2_cross_platform.composeapp.generated.resources.current_time
 import labo2_cross_platform.composeapp.generated.resources.current_timezone
 import co.touchlab.kermit.Logger
 import org.jetbrains.compose.resources.stringResource
-import ua.edu.chnu.kkn.Labo2_cross_platform.data.timezones.TimeZoneHelper
-import ua.edu.chnu.kkn.Labo2_cross_platform.data.timezones.TimeZoneHelperImpl
+import ua.edu.chnu.kkn.labs.data.timezones.TimeZoneHelper
+import ua.edu.chnu.kkn.labs.data.timezones.TimeZoneHelperImpl
 
 @Composable
 fun MainScreen(

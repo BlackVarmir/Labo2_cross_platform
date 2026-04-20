@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform
+package ua.edu.chnu.kkn.labs
 
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.window.ComposeViewport

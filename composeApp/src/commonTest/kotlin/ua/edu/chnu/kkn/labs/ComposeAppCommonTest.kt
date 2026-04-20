@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform
+package ua.edu.chnu.kkn.labs
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

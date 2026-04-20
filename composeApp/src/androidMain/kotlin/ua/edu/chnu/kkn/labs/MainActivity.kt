@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform
+package ua.edu.chnu.kkn.labs
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

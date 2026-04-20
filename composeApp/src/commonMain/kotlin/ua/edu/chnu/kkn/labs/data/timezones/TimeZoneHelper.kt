@@ -1,4 +1,4 @@
-package ua.edu.chnu.kkn.Labo2_cross_platform.data.timezones
+package ua.edu.chnu.kkn.labs.data.timezones
 
 interface TimeZoneHelper {
     fun getTimeZoneStrings(): List<String>

@@ -70,11 +70,11 @@ kotlin {
 }
 
 android {
-    namespace = "ua.edu.chnu.kkn.Labo2_cross_platform"
+    namespace = "ua.edu.chnu.kkn.labs"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "ua.edu.chnu.kkn.Labo2_cross_platform"
+        applicationId = "ua.edu.chnu.kkn.labs"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -102,11 +102,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "ua.edu.chnu.kkn.Labo2_cross_platform.MainKt"
+        mainClass = "ua.edu.chnu.kkn.labs.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "ua.edu.chnu.kkn.Labo2_cross_platform"
+            packageName = "ua.edu.chnu.kkn.labs"
             packageVersion = "1.0.0"
         }
     }
